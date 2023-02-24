@@ -84,6 +84,7 @@
         background-image: url("/images/aspen/students.jpeg");
         height: 100vh;
         overflow: hidden;
+        position: relative;
     }
 
     .header {

@@ -47,12 +47,11 @@
                 Overall, just be cautious about links that you click on that take you to a login page.
             {:else if $state === 3}
                 One of the most famous incidents of the phishing scam occurred on twitter.
-                A twitter employee with administrative privileges in the twitter administrator panel fell for a
+                A twitter employee with privileges in the twitter administrator panel fell for a
                 phishing scam.<br><br>
-                This led to twitters admin dashboard being compromised and tons of celebrity and branded twitter
-                accounts being taken over by hackers which posted bitcoin scams onto the twitter accounts of these
-                accounts.<br><br>
-                The attackers that pulled off this stunt made millions this day and costed Twitter millions as well.
+                This led to twitters admin dashboard being compromised and tons of celebrity and company twitter
+                accounts being taken over by hackers which tweeted bitcoin scams from the twitter accounts of trusted people and companies.<br><br>
+                The attackers that pulled off this stunt made millions this day and cost Twitter millions as well.
             {:else if $state === 4}
                 There are several ways that phishing can have an economic impact.<br><br>
                 The first way is if a persons bank account or account linked to a bank account is compromised via phishing.
@@ -92,6 +91,11 @@
 </div>
 
 <style>
+    :global(body) {
+        margin: 0;
+        font-family: Arial, serif;
+    }
+
     .container {
         max-width: 800px;
         margin: auto;
@@ -130,6 +134,7 @@
         .container {
             margin-left: 2rem;
             margin-right: 2rem;
+            margin-bottom: 2rem;
         }
     }
 </style>
